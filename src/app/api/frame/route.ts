@@ -12,9 +12,9 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
     <title>Image Galary</title>
     <meta property="fc:frame" content="vNext" />
     <meta property="fc:frame:image" content="${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmTryshf9Lq7Cs761vTUcj2N5hd76UzRdM8hM8iuedjFt4/13.jpg" />
-    <meta property="fc:frame:button:1" content="Builders Connect" />
+    <meta property="fc:frame:button:1" content="ufanstudioo" />
     <meta property="fc:frame:button:1:action" content="post_redirect" />
-    <meta property="fc:frame:button:2" content="Join Challange" />
+    <meta property="fc:frame:button:2" content="Join ufanstudioo" />
     <meta property="fc:frame:button:2:action" content="post_redirect" />
     <meta property="fc:frame:post_url" content="${process.env.NEXT_PUBLIC_BASE_URL}/api/end" />
   </head></html>`);

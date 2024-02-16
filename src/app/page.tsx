@@ -8,7 +8,7 @@ const frameMetadata = getFrameMetadata({
       label: "Begin",
     },
   ],
-  image: `${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmQBHarz2WFczTjz5GnhjHrbUPDnB48W5BM2v2h6HbE1rZ/1.png`,
+  image: `${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmTryshf9Lq7Cs761vTUcj2N5hd76UzRdM8hM8iuedjFt4/1.jpg`,
   postUrl: `${process.env.NEXT_PUBLIC_BASE_URL}/api/frame?id=1`,
 });
 export const metadata: Metadata = {
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     description: "Builders Connect Challange",
     images: [
       {
-        url: `${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmQBHarz2WFczTjz5GnhjHrbUPDnB48W5BM2v2h6HbE1rZ/1.png`,
+        url: `${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmTryshf9Lq7Cs761vTUcj2N5hd76UzRdM8hM8iuedjFt4/1.jpg`,
         width: 800,
         height: 600,
         alt: "Builders Connect Challange",

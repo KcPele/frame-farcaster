@@ -4,12 +4,12 @@ const nextConfig = {
     return [
       {
         source: "/comics",
-        destination: "https://kcpele.vercel.app",
+        destination: "https://warpcast.com/kcpele",
         permanent: false,
       },
       {
         source: "/cloud",
-        destination: "https://kcpele.vercel.app",
+        destination: "https://warpcast.com/kcpele",
         permanent: false,
       },
     ];

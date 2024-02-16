@@ -12,7 +12,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
     <title>Image Galary</title>
     <meta property="fc:frame" content="vNext" />
     <meta property="fc:frame:image" content="${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmQBHarz2WFczTjz5GnhjHrbUPDnB48W5BM2v2h6HbE1rZ/9.png" />
-    <meta property="fc:frame:button:1" content="Comics" />
+    <meta property="fc:frame:button:1" content="Comic" />
     <meta property="fc:frame:button:1:action" content="post_redirect" />
     <meta property="fc:frame:button:2" content="Blog post Tutorial" />
     <meta property="fc:frame:button:2:action" content="post_redirect" />

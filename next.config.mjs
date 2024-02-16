@@ -4,13 +4,12 @@ const nextConfig = {
     return [
       {
         source: "/comics",
-        destination: "https://cosmiccowboys.cloud",
+        destination: "https://kcpele.vercel.app",
         permanent: false,
       },
       {
         source: "/cloud",
-        destination:
-          "https://www.pinata.cloud/blog/how-to-make-a-frame-on-farcaster-using-ipfs",
+        destination: "https://kcpele.vercel.app",
         permanent: false,
       },
     ];

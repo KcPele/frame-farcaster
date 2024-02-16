@@ -7,16 +7,15 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
 
   const nextId = idAsNumber + 1;
 
-  if (idAsNumber === 7) {
+  if (idAsNumber === 10) {
     return new NextResponse(`<!DOCTYPE html><html><head>
     <title>Image Galary</title>
     <meta property="fc:frame" content="vNext" />
     <meta property="fc:frame:image" content="${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmQBHarz2WFczTjz5GnhjHrbUPDnB48W5BM2v2h6HbE1rZ/9.png" />
-    <meta property="fc:frame:button:1" content="Comic" />
+    <meta property="fc:frame:button:1" content="Builders Connect" />
     <meta property="fc:frame:button:1:action" content="post_redirect" />
-    <meta property="fc:frame:button:2" content="Blog post Tutorial" />
+    <meta property="fc:frame:button:2" content="Join Challange" />
     <meta property="fc:frame:button:2:action" content="post_redirect" />
-    <meta property="fc:frame:button:3:action" content="post_redirect" />
     <meta property="fc:frame:post_url" content="${process.env.NEXT_PUBLIC_BASE_URL}/api/end" />
   </head></html>`);
   } else {

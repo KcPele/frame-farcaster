@@ -4,12 +4,12 @@ const nextConfig = {
     return [
       {
         source: "/comics",
-        destination: "https://warpcast.com/kcpele",
+        destination: "https://ultrafantasycomics.wixsite.com/ufanstudioo",
         permanent: false,
       },
       {
         source: "/cloud",
-        destination: "https://warpcast.com/kcpele",
+        destination: "https://ultrafantasycomics.wixsite.com/ufanstudioo",
         permanent: false,
       },
     ];
